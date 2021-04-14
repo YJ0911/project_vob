@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>당신의 피부타입에 맞춘 랭킹 - View of Beauty</title>
+  <title>환영합니다! - View of Beauty</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">View of Beauty</a>
-      <a class="btn btn-primary" href="button_signin.html">Sign In</a>
+      <a class="btn btn-primary" href="button_login.html">Log In</a>
     </div>
   </nav>
 
@@ -40,10 +40,24 @@
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <h1 class="mb-5">로그인</h1>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
+     /div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto"> 
+           <form>
+	    <div class="form-row">
+		    
+		<body>
+        		<fieldset style="width:250px;">
+            		<legend>login</legend>
+                		<form method='post' action='login_ck.php'>
+                    			<p>id : <input name='id' type='text'> </p>
+                    			<p>pw : <input name='pw' type='password'> </p>
+                    			<input type='submit' value='login'> 
+                    			<input type='reset' value='reset'>
+                    	<!-- <a href='join.html'>join</a> -->
+                		</form>
+        		</fieldset>
+    		</body>
+         
               <!-- <div class="col-12 col-md-9 mb-2 mb-md-0">
                 <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
               </div>
